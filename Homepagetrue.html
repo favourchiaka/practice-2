@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="pages.css">
+<body>
+    
+    <h1>FAVOUR.COM</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="logo">
+    
+    <script>
+        const savedName = localStorage.getItem('savedName');
+        const savedEmail = localStorage.getItem('savedEmail');
+        const savedAge = localStorage.getItem('savedAge')
+        const savedPassword = localStorage.getItem('savedPassword');
+document.write("<H1> WELCOME " + savedName + "!</H1>");
+document.write("<p> These are the only things we have on the website right now: </p>");
+document.write("<a href='Calculator.html'><button class='numbtn' data-hover='Add numbers and other things'>Calculator</button></a>");
+document.write("<a href = 'GuessingGame.html' ><button class='numbtn' data-hover='Add numbers and other things'>Guessing Game</button></a>");
+    </script>
+</body>
+</html>
